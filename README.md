@@ -27,6 +27,10 @@ ensure p2p_Shop
 
 1. Simply delete the folder from your server !
 
+## Requirements
+* [es_extended](https://github.com/esx-framework/esx_core/tree/main/%5Bcore%5D/es_extended)
+* [oxmysql](https://github.com/overextended/oxmysql) ou [mysqlasync](https://github.com/brouznouf/fivem-mysql-async)
+
 ## Contact
 
 You can join the [discord](https://discord.gg/5K5CHmVnUb) for support.
