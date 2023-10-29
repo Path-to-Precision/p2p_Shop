@@ -18,7 +18,7 @@ YouTube : https://youtu.be/PZZGPcuW-tM (in french sorry)
 
 ## Requirements
 * [es_extended](https://github.com/esx-framework/esx_core/tree/main/%5Bcore%5D/es_extended)
-* [oxmysql](https://github.com/overextended/oxmysql) or [mysql-async](https://github.com/brouznouf/fivem-mysql-async) (if you're using the second one edit the line 24 and 25 in [fxmanifest](https://github.com/Path-to-Precision/p2p_Shop/blob/main/fxmanifest.lua)
+* [oxmysql](https://github.com/overextended/oxmysql) or [mysql-async](https://github.com/brouznouf/fivem-mysql-async) (if you're using the second one edit the line 24 and 25 in [fxmanifest](https://github.com/Path-to-Precision/p2p_Shop/blob/main/fxmanifest.lua))
 
 ## Installation
 1. Download the script by clicking on the green button on top of your screen.
