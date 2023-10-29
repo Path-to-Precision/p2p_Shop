@@ -3,6 +3,7 @@ Locales['fr'] = {
     ['mainMenuDesc'] = "Accueil",
     ['confirm'] = "Valider et payer",
     ['clear_basket'] = "Vider votre panier",
+    ['gotobasket'] = "Accèder à votre panier",
     ['blipLabel'] = "Supérette",
     ['paiement'] = "Méthode de paiement",
     ['money'] = "Liquide",
