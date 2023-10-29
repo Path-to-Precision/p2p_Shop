@@ -15,7 +15,7 @@ Well at this point this script has reached the pinnacle of what is available in 
 
 ## Installation
 1. Download the script by clicking on the green button on top of your screen.
-2. Make sure you start this script (put this in your server.cfg)
+2. Make sure you start the script (put this in your server.cfg)
 ```
 ensure p2p_Shop
 ```
