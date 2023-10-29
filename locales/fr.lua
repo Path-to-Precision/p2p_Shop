@@ -6,6 +6,7 @@ Locales['fr'] = {
     ['gotobasket'] = "Accèder à votre panier",
     ['shoppingcart_label'] = "Votre panier",
     ['shoppingcart_desc'] = "Merci pour votre visite",
+    ['shoppingcart_empty'] = "Vous n'avez rien dans votre panier",
     ['blipLabel'] = "Supérette",
     ['paiement'] = "Méthode de paiement",
     ['money'] = "Liquide",
