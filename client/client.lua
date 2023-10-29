@@ -29,7 +29,7 @@ function shopMenu()
         Citizen.CreateThread(function()
             while open do
                 RageUI.IsVisible(mainMenu, function()
-                    RageUI.Button("Accèder à votre panier", nil, {RightLabel = "→"}, true, {}, subPanier)
+                    RageUI.Button(Config.Translate('gotobasket'), nil, {RightLabel = "→"}, true, {}, subPanier)
                     RageUI.Line()
                     for k, v in pairs(Config.shop) do
                         RageUI.Button(v.label, v.desc, {RightLabel = "→"}, true, {
