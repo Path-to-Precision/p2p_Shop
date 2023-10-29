@@ -6,6 +6,7 @@ Locales['en'] = {
     ['gotobasket'] = "View your shopping cart",
     ['shoppingcart_label'] = "Your shopping cart",
     ['shoppingcart_desc'] = "Thanks for your visit",
+    ['shoppingcart_empty'] = "Your shopping cart is empty",
     ['blipLabel'] = "Supermarket",
     ['paiement'] = "Paiement method",
     ['money'] = "Money",
