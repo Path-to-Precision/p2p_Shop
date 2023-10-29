@@ -16,6 +16,10 @@ YouTube : https://youtu.be/PZZGPcuW-tM (in french sorry)
 * Easy [configuration](https://github.com/Path-to-Precision/p2p_Shop/blob/main/shared/config.lua)
 * Shopping cart system
 
+## Requirements
+* [es_extended](https://github.com/esx-framework/esx_core/tree/main/%5Bcore%5D/es_extended)
+* [oxmysql](https://github.com/overextended/oxmysql) or [mysqlasync](https://github.com/brouznouf/fivem-mysql-async)
+
 ## Installation
 1. Download the script by clicking on the green button on top of your screen.
 2. Make sure you start the script (put this in your server.cfg)
@@ -26,10 +30,6 @@ ensure p2p_Shop
 ## Uninstallation
 
 1. Simply delete the folder from your server !
-
-## Requirements
-* [es_extended](https://github.com/esx-framework/esx_core/tree/main/%5Bcore%5D/es_extended)
-* [oxmysql](https://github.com/overextended/oxmysql) ou [mysqlasync](https://github.com/brouznouf/fivem-mysql-async)
 
 ## Contact
 
