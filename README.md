@@ -31,3 +31,6 @@ You can join the [discord](https://discord.gg/5K5CHmVnUb) for support.
 ## Contributing
 
 Open an [issue](https://github.com/Path-to-Precision/p2p_Shop/issues/new) or make a [pull request](https://github.com/Path-to-Precision/p2p_Shop/pulls), we'll be glad to improve our project with you !
+
+## Special thanks
+- [iTexZoz](https://github.com/ImBaphomettt) for is incredible [minimal version of RageUI](https://github.com/ImBaphomettt/RageUI)
