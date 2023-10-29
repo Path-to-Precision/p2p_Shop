@@ -3,6 +3,7 @@ Locales['en'] = {
     ['mainMenuDesc'] = "Home",
     ['confirm'] = "Confirm and pay",
     ['clear_basket'] = "Clear your shopping cart",
+    ['gotobasket'] = "View your shopping cart",
     ['blipLabel'] = "Supermarket",
     ['paiement'] = "Paiement method",
     ['money'] = "Money",
