@@ -89,7 +89,7 @@ function shopMenu()
                         })
                     else
                         RageUI.Separator("")
-                        RageUI.Separator("~r~Vous n'avez rien dans votre panier")
+                        RageUI.Separator("~r~"..Config.Translate('shoppingcart_empty'))
                         RageUI.Separator("")
                     end
                 end)
