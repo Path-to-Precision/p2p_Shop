@@ -26,7 +26,7 @@ ensure p2p_Shop
 
 ## Contact
 
-You can join the (discord)[https://discord.gg/5K5CHmVnUb] for support.
+You can join the [discord](https://discord.gg/5K5CHmVnUb) for support.
 
 ## Contributing
 
