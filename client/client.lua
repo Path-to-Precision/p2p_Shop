@@ -15,7 +15,7 @@ end
 local mainMenu = RageUI.CreateMenu(Config.Translate('mainMenuLabel'), Config.Translate('mainMenuDesc'))
 local subMenu = RageUI.CreateSubMenu(mainMenu, "", "")
 local subPanier = RageUI.CreateSubMenu(mainMenu, Config.Translate('shoppingcart_label'), Config.Translate('shoppingcart_desc'))
-local methode = ""
+local methode = "liquide"
 local Index1, Index2 = 1, 1
 local Panier = {}
 
