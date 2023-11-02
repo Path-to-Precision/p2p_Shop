@@ -8,20 +8,20 @@ elseif Config.getSharedObject == "old" then
 end
 
 RegisterNetEvent('p2p_shop:buy_item')
-AddEventHandler('p2p_shop:buy_item', function(items, methode)
+AddEventHandler('p2p_shop:buy_item', function(items, Index2)
     local xPlayer = ESX.GetPlayerFromId(source)
     for k, v in pairs(items) do
         local canPurchase = false
-        if methode == "liquide" then
+        if Index2 == "liquide" then
             canPurchase = xPlayer.getMoney() >= (v.price * v.quantity)
-        elseif methode == "banque" then
+        elseif Index2 == "banque" then
             canPurchase = xPlayer.getAccount('bank').money >= (v.price * v.quantity)
         end
         if canPurchase then
-            if methode == "liquide" then
+            if Index2 == "liquide" then
                 xPlayer.removeMoney((v.price * v.quantity))
                 color = "~g~"
-            elseif methode == "banque" then
+            elseif Index2 == "banque" then
                 xPlayer.removeAccountMoney('bank', (v.price * v.quantity))
                 color = "~b~"
             end
