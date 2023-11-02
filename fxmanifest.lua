@@ -1,6 +1,8 @@
 fx_version 'adamant'
 game 'gta5'
 
+version '1.0.0'
+
 shared_scripts {
     '@es_extended/locale.lua',
 	'locales/*.lua',
