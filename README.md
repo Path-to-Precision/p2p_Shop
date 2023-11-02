@@ -23,7 +23,7 @@ Well at this point this script has reached the pinnacle of what is available in 
 
 ## Installation
 1. Download the script by clicking on the [green button](https://github.com/Path-to-Precision/p2p_Shop/archive/refs/heads/main.zip) on top of this page (<> Code -> Download ZIP) or go check the [releases](https://github.com/Path-to-Precision/p2p_Shop/releases) and download the latest version.
-2. Make sure you start the script (put this in your server.cfg)
+2. Make sure you start the script (put this in your server.cfg).
 ```
 ensure p2p_Shop
 ```
