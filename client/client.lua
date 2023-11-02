@@ -15,7 +15,6 @@ end
 local mainMenu = RageUI.CreateMenu(Config.Translate('mainMenuLabel'), Config.Translate('mainMenuDesc'))
 local subMenu = RageUI.CreateSubMenu(mainMenu, "", "")
 local subPanier = RageUI.CreateSubMenu(mainMenu, Config.Translate('shoppingcart_label'), Config.Translate('shoppingcart_desc'))
-local methode = "liquide"
 local Index1, Index2 = 1, 1
 local Panier = {}
 
@@ -74,16 +73,11 @@ function shopMenu()
                         RageUI.List(Config.Translate('paiement'), {"~g~"..Config.Translate('money').."~s~", "~b~"..Config.Translate('bank').."~s~"}, Index2, nil, {}, true, {
                             onListChange = function(list) 
                                 Index2 = list 
-                                if list == 1 then
-                                    methode = "liquide"
-                                elseif list == 2 then
-                                    methode = "banque"
-                                end
                             end
                         })
                         RageUI.Button(Config.Translate('confirm'), false, {RightBadge = RageUI.BadgeStyle.Tick, Color = {BackgroundColor = {120, 255, 0, 100}}}, true, {
                             onSelected = function()
-                                TriggerServerEvent('p2p_shop:buy_item', Panier, methode)
+                                TriggerServerEvent('p2p_shop:buy_item', Panier, Index2)
                                 RageUI.GoBack()
                             end
                         })
